@@ -73,8 +73,13 @@ header{
     position: relative;
     right: 150px;
     top: 210px;
-    width: 400px;
+    width: 600px;
     height: 210px;
+    
+}
+
+.para{
+    width: 525px;
 }
 
 
