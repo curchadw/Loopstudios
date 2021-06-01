@@ -58,7 +58,7 @@ header{
 
 .mid_sec{
     background-color: #FFFFFF;
-    height: 1500px;
+    height: 1800px;
 }
 
 .mid_1{
@@ -69,7 +69,7 @@ header{
 
 .vr{
     background-color: #FFFFFF;
-    padding: 60px;
+    padding: 80px;
     position: relative;
     right: 150px;
     top: 210px;
@@ -81,6 +81,88 @@ header{
 .para{
     width: 525px;
 }
+
+.mid_2{
+    padding: 90px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.creation{
+    font-size: 2em;
+}
+
+.see_all{
+    z-index: 2;
+    width: 150px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+}
+
+.see_all:hover{
+    color: #FFFFFF;
+    background-color: black;
+}
+
+
+
+.img{
+    height: 400px;
+    width: 256px;
+    align-items: flex-end;
+}
+
+.earth{
+    background-image: url('images/desktop/image-deep-earth.jpg');
+   
+}
+
+.arcade{
+    background-image: url('images/desktop/image-night-arcade.jpg');
+}
+
+.soccer{
+    background-image: url('images/desktop/image-soccer-team.jpg');
+}
+
+.grid{
+    background-image: url('images/desktop/image-grid.jpg');
+}
+
+.above{
+    background-image: url('images/desktop/image-from-above.jpg');
+}
+
+.borealis{
+    background-image: url('images/desktop/image-pocket-borealis.jpg');
+}
+
+.curosity{
+    background-image: url('images/desktop/image-curiosity.jpg');
+}
+
+.fisheye{
+    background-image: url('images/desktop/image-fisheye.jpg');
+}
+
+.img_row1, .img_row2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_row1{
+    margin-bottom: 40px;
+}
+
+.img > p {
+    color: #FFFFFF;
+    font-size: 2.5em;
+    position: relative;
+    top: 250px;
+}
+
 
 
 
